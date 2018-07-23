@@ -5,66 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/myParallax.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/animation.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/advanced-styles">
     <title>
       Tech Bug - Revolution Against Bugs
     </title>
   </head>
   <body>
-    <div class="backdrop">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-          Navigation
-        </a>
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link">
-              Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="README.txt" class="nav-link">
-              Documentation
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              How To's
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              The Revolution Against Bugs
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div id="bounceBug">
-        <img alt="Tech Bug" src="img/Tech-Bug.png">
-      </div>
-      <div class="main-text">
-        <div id="trans-box">
-          <p id="splash-text">
+    <div class="container">
+      <section class="background">
+        <div class="content-wrapper">
+          <p class="content-title">
             Welcome to the Resistance
-            <br />
-            <small>
-              We
-              <span class="typer" id="main" data-words="kill, bugs, fast" data-colors="white" data-delay="100" data-deleteDelay="1000"></span>
-              <span class="cursor" data-owner="main"></span>
-            </small>
-            <br />
-            <small>
-                Are you ready to eliminate bugs in your programs? Try contacting us for a quote if your ready for your applications to be bug-free...
-            </small>
+          </p>
+          <p class="content-subtitle">
+            We specialize in troubleshooting and testing software to
+            exterminate the bugs that inhabit the program. We are the best in the
+            business in dealing with bugs. Consider us as the Pest Exterminators of the bug world.
           </p>
         </div>
-      </div>
+      </section>
+      <section class="background">
+        <div class="content-wrapper">
+          <p id="content-title">
+            We Speak the Language
+          </p>
+          <p class="content-subtitle">
+            We work with web-based languages. We also work with apps for all platforms, including Linux!
+            No bugs are safe while we are around!
+          </p>
+        </div>
+      </section>
+      <section class="background">
+        <div class="content-wrapper">
+          <p id="content-title">
+            Extermination
+          </p>
+          <p class="content-subtitle">
+            Call or email us today to get a quote on how you can rid your programs of those pesky bugs!
+          </p>
+        </div>
+      </section>
     </div>
-    <script src="js/typer.js"></script>
   </body>
 </html>
